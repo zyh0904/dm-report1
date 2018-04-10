@@ -1,0 +1,510 @@
+
+===========================================================================标称属性==========================================================================================
+
+Brush                           2
+Garlington                      2
+Hillcrest                       2
+Mission St                      2
+Elmhurst                        2
+Lindsay                         2
+Sharp                           2
+Shephard                        2
+Oneida                          2
+Edinburgh                       2
+Fanning                         2
+Vulcan                          2
+El Plazuela                     2
+Laskie                          2
+Auburn                          2
+Rizal                           2
+Harry                           2
+Hunters Point                   2
+Espanola                        2
+Imperial                        2
+08th Ti                         2
+Avenue G                        2
+Gabilan                         2
+Emery                           2
+Hidalgo                         2
+Roach                           2
+Cleveland                       2
+Nottingham                      2
+South                           2
+Chula                           2
+Mayflower                       2
+Burr                            2
+North View                      2
+Rodgers                         2
+Worth                           2
+Redondo                         2
+Garces                          2
+Melra                           2
+Dolphin                         2
+Marcela                         2
+Horace                          2
+Bannock                         2
+Mountain Springs                2
+Service                         2
+Commer                          2
+Striped Bass                    2
+Avenue I                        2
+Turner                          2
+Keyes                           2
+Tuscany                         1
+Quickstep                       1
+Saint Joseph's                  1
+Torney                          1
+Dicha                           1
+Graham                          1
+Saddleback                      1
+Doric                           1
+Mabrey                          1
+Shaw                            1
+Willie B Kennedy                1
+09th Ti                         1
+Ignacio                         1
+Crisp                           1
+Meacham                         1
+East Crystal Cove               1
+Richards                        1
+Juan Bautista                   1
+Stark                           1
+Diana                           1
+Yacht                           1
+Northgate                       1
+Danton                          1
+Fella                           1
+Reno                            1
+Tillman                         1
+Albatross                       1
+Kimball                         1
+Nob Hill                        1
+Homewood                        1
+Banbury                         1
+Saint Marys                     1
+Unknown                         1
+Adele                           1
+Salinas                         1
+Lessing                         1
+Hare                            1
+Avenue H                        1
+Sherman                         1
+Havens                          1
+Bergen                          1
+Toyon                           1
+Lakewood                        1
+Pizarro                         1
+Keppler                         1
+Clarion                         1
+Mersey                          1
+Reed                            1
+Colin P Kelly Jr                1
+Cooper                          1
+Dixie                           1
+Spencer                         1
+Roemer                          1
+Gordon                          1
+Colonial                        1
+Hillview                        1
+Beckett                         1
+Waterloo                        1
+Rio                             1
+Ridge                           1
+Penny                           1
+Erie                            1
+Custer                          1
+Boylston                        1
+Cedar                           1
+Chain Of Lakes                  1
+Mirando                         1
+Arco                            1
+Red Leaf                        1
+Legion                          1
+Annie                           1
+Windsor                         1
+Fern                            1
+Alder                           1
+Bartol                          1
+Hollywood                       1
+Augusta                         1
+11th Ti                         1
+Martin Luther King Jr           1
+Dorcas                          1
+Jose Sarria                     1
+John F. Shelley                 1
+Gillette                        1
+Merchant                        1
+Turk Murphy                     1
+Letterman                       1
+Conkling                        1
+Al Scoma                        1
+Oriole                          1
+Higuera                         1
+Forest                          1
+Nautilus                        1
+Winthrop                        1
+Ames                            1
+Acton                           1
+Cunningham                      1
+Lynch                           1
+Vine                            1
+Balmy                           1
+Hardie                          1
+Knockash                        1
+Dedman                          1
+Jennifer                        1
+Mojave                          1
+Via Bufano                      1
+Harris                          1
+Willard St North                1
+dtype: int64 
+
+Street Suffix 频数：
+ St    138358
+Av     43219
+Bl      3555
+Wy      3540
+Dr      3267
+Tr      1466
+Ct       667
+Pl       538
+Rd       389
+Ln       354
+Hy       240
+Pz       210
+Pk       128
+Cr        97
+Al        83
+Wk         9
+Rw         5
+Sw         2
+So         2
+No         2
+Hl         1
+dtype: int64 
+
+Current Status 频数：
+ complete       97077
+issued         83559
+filed          12043
+withdrawn       1754
+cancelled       1536
+expired         1370
+approved         733
+reinstated       563
+suspend          193
+revoked           50
+plancheck         16
+appeal             2
+disapproved        2
+incomplete         2
+dtype: int64 
+
+Structural Notification 频数：
+ Y    6922
+dtype: int64 
+
+Voluntary Soft-Story Retrofit 频数：
+ Y    35
+dtype: int64 
+
+Fire Only Permit 频数：
+ Y    18827
+dtype: int64 
+
+Existing Use 频数：
+ 1 family dwelling       46766
+apartments              40798
+office                  24616
+2 family dwelling       20987
+retail sales             6910
+food/beverage hndlng     4886
+vacant lot               1813
+tourist hotel/motel      1665
+residential hotel        1020
+warehouse,no frnitur      870
+school                    674
+clinics-medic/dental      581
+manufacturing             510
+church                    467
+artist live/work          448
+lending institution       351
+auto repairs              336
+health studios & gym      239
+theater                   219
+filling/service stn       218
+barber/beauty salon       212
+prkng garage/public       207
+public assmbly other      196
+prkng garage/private      194
+workshop commercial       189
+recreation bldg           179
+museum                    146
+club                      124
+storage shed              113
+misc group residns.       113
+antenna                   110
+warehouse, furniture       99
+laundry/laundromat         99
+sfpd or sffd station       97
+automobile sales           95
+nite club                  79
+massage parlor             78
+parking lot                76
+printing plant             69
+power plant                68
+dry cleaners               63
+animal sale or care        59
+day care home gt 12        53
+social care facility       43
+day care, non-res          41
+garment shops              40
+hospital                   38
+muni carbarn               37
+phone xchnge/equip         36
+radio & tv stations        35
+library                    33
+moving & storage           30
+day care center            27
+wholesale sales            27
+greenhouse                 27
+dance hall                 24
+sound studio               18
+christmas tree lot         18
+convalescent home          17
+mortuary                   15
+nursing home gt 6          13
+car wash                   11
+tower                      10
+nursing home non amb       10
+building materials         10
+adult entertainment         9
+fence/retaining wall        9
+chemical processing         9
+day care home lt 7          9
+nursery(floral)             9
+amusement center            7
+storage tanks               6
+jail                        6
+prson'l svc tutor           5
+nursing home lte 6          5
+paint store                 5
+sign                        5
+workshop residential        5
+accessory cottage           5
+swimming pool               5
+meat/produce marts          5
+r-3(dwg) nursing            4
+stadium                     4
+day care home 7 - 12        4
+sewage plant                4
+muni driver restroom        3
+ambulance service           3
+bath house                  2
+temple                      2
+child care                  1
+dairies/dairy equip.        1
+orphanage                   1
+roofing materials           1
+dtype: int64 
+
+Proposed Use 频数：
+ 1 family dwelling       46346
+apartments              43032
+office                  23962
+2 family dwelling       22061
+retail sales             5079
+food/beverage hndlng     5053
+tourist hotel/motel      1601
+residential hotel        1002
+school                    748
+clinics-medic/dental      678
+warehouse,no frnitur      674
+artist live/work          443
+manufacturing             436
+church                    434
+vacant lot                385
+health studios & gym      332
+barber/beauty salon       258
+auto repairs              239
+lending institution       239
+public assmbly other      228
+workshop commercial       219
+recreation bldg           207
+theater                   189
+prkng garage/public       175
+museum                    139
+club                      125
+misc group residns.       119
+antenna                   115
+massage parlor            104
+prkng garage/private      102
+filling/service stn        99
+sfpd or sffd station       98
+day care home gt 12        83
+power plant                82
+storage shed               79
+automobile sales           74
+greenhouse                 72
+parking lot                67
+warehouse, furniture       65
+nite club                  65
+animal sale or care        60
+day care, non-res          59
+laundry/laundromat         56
+social care facility       47
+wholesale sales            40
+day care center            40
+phone xchnge/equip         38
+dry cleaners               36
+radio & tv stations        36
+muni carbarn               35
+printing plant             34
+library                    33
+hospital                   32
+sound studio               28
+moving & storage           26
+nursery(floral)            25
+child care                 25
+garment shops              24
+fence/retaining wall       22
+dance hall                 22
+christmas tree lot         18
+convalescent home          16
+prson'l svc tutor          15
+nursing home gt 6          14
+mortuary                   12
+nursing home non amb       11
+tower                      11
+day care home lt 7         11
+day care home 7 - 12       11
+workshop residential       10
+chemical processing         9
+amusement center            8
+swimming pool               6
+building materials          6
+sewage plant                6
+jail                        6
+sign                        6
+paint store                 6
+bath house                  5
+car wash                    5
+muni driver restroom        5
+storage tanks               5
+adult entertainment         5
+accessory cottage           5
+nursing home lte 6          4
+r-3(dwg) nursing            4
+ambulance service           4
+stadium                     3
+temple                      2
+meat/produce marts          2
+orphanage                   1
+not applicable              1
+dairies/dairy equip.        1
+roofing materials           1
+dtype: int64 
+
+Plansets 频数：
+ 2.0       98088
+0.0       63244
+3.0         250
+4.0           3
+1.0           2
+6.0           2
+20.0          1
+9000.0        1
+dtype: int64 
+
+TIDF Compliance 频数：
+ Y    1
+P    1
+dtype: int64 
+
+Existing Construction Type 频数：
+ 5.0    113350
+1.0     28072
+3.0      9663
+2.0      4068
+4.0       381
+dtype: int64 
+
+Proposed Construction Type 频数：
+ 5.0    114382
+1.0     27841
+3.0      9360
+2.0      3778
+4.0       377
+dtype: int64 
+
+Site Permit 频数：
+ Y    5359
+dtype: int64 
+
+Supervisor District 频数：
+ 3.0     28649
+8.0     26760
+2.0     25483
+6.0     24797
+5.0     19045
+9.0     16362
+7.0     14365
+1.0     13038
+10.0    12152
+4.0      9592
+11.0     6940
+dtype: int64 
+
+Neighborhoods - Analysis Boundaries 频数：
+ Financial District/South Beach    21816
+Mission                           14681
+Sunset/Parkside                   10207
+West of Twin Peaks                 8739
+Castro/Upper Market                8527
+Pacific Heights                    8508
+Marina                             8244
+Outer Richmond                     7854
+Noe Valley                         7844
+South of Market                    7572
+Bernal Heights                     6067
+Nob Hill                           6009
+Haight Ashbury                     5798
+Inner Sunset                       5776
+Bayview Hunters Point              5669
+Russian Hill                       5495
+Hayes Valley                       5489
+Tenderloin                         4783
+Inner Richmond                     4458
+Potrero Hill                       4293
+Presidio Heights                   4084
+North Beach                        4054
+Western Addition                   3867
+Chinatown                          3765
+Lone Mountain/USF                  3358
+Excelsior                          3072
+Oceanview/Merced/Ingleside         2654
+Glen Park                          2637
+Mission Bay                        2287
+Outer Mission                      2242
+Twin Peaks                         1702
+Portola                            1433
+Lakeshore                          1308
+Seacliff                            992
+Visitacion Valley                   900
+Japantown                           700
+Treasure Island                      81
+Golden Gate Park                     64
+Presidio                             51
+Lincoln Park                         49
+McLaren Park                         46
+dtype: int64 
+
+===========================================================================数值属性==========================================================================================
+
+                                    max  min           mean   median  quartile   missing
+Number of Existing Stories         78.0  0.0       5.705773      3.0       2.0 -155748.0
+Number of Proposed Stories         78.0  0.0       5.745043      3.0       2.0 -155664.0
+Estimated Cost              537958646.0  1.0  168955.443297  11000.0    3300.0 -160466.0
+Revised Cost                780500000.0  0.0  132856.186492   7000.0       1.0 -192466.0
+Existing Units                   1907.0  0.0      15.666164      1.0       1.0 -146994.0
+Proposed Units                   1911.0  0.0      16.510950      2.0       1.0 -147621.0
