@@ -1,0 +1,519 @@
+===================标称属性===================
+J.Laurinaitis    155
+P.Chung          153
+A.Hawk           153
+B.Wagner         153
+S.Tulloch        151
+N.Bowman         144
+E.Weddle         143
+K.Wright         141
+R.Clark          141
+L.David          138
+M.Burnett        134
+S.Lee            133
+
+M.Watson           1
+J.Ross             1
+I.Redman           1
+N.Gerry            1
+D.Binn             1
+M.Darr             1
+T.Bowser           1
+F.Jackson          1
+W.Saunders         1
+B.Coleman          1
+C.Mace             1
+J.Doyle            1
+R.Jennings         1
+A.DePaola          1
+I.Pead             1
+N.Vannett          1
+E.Harris           1
+T.Tabor            1
+E.Decker           1
+E.Ebron            1
+V.Anderson         1
+T.Rawls            1
+B.Pierce           1
+C.Latimer          1
+A.Moten            1
+A.Barbre           1
+L.Little           1
+J.Whitehead        1
+B.Witherspoon      1
+L.Washington       1
+Length: 2456, dtype: int64 
+
+FieldGoalResult 频数：
+ Good       7582
+No Good    1272
+Blocked     205
+dtype: int64 
+
+Fumble 频数：
+ 0    401916
+1      5772
+dtype: int64 
+
+RecFumbTeam 频数：
+ CHI    165
+TB     161
+NYG    159
+ARI    154
+JAC    147
+PHI    146
+DAL    146
+NYJ    145
+SEA    143
+OAK    143
+CAR    142
+BAL    140
+WAS    139
+ATL    138
+SF     136
+MIN    135
+KC     134
+HOU    134
+BUF    133
+NE     132
+NO     131
+GB     130
+IND    128
+DEN    127
+PIT    127
+CLE    125
+DET    123
+MIA    123
+TEN    114
+CIN    111
+STL    107
+SD     106
+LA      35
+LAC     14
+dtype: int64 
+
+RecFumbPlayer 频数：
+ M.Adams           15
+J.Peppers         15
+D.Jackson         14
+J.Watt            14
+M.Jenkins         14
+R.Ninkovich       14
+A.Smith           13
+J.Smith           13
+J.Allen           13
+K.Williams        12
+M.Mitchell        12
+J.Jones           11
+R.Wilson          11
+L.David           11
+J.Thomas          11
+K.Wright          10
+J.Laurinaitis     10
+D.Revis           10
+C.Mosley          10
+D.Johnson         10
+T.Smith           10
+C.Tillman         10
+B.Scott           10
+T.Williams         9
+D.Williams         9
+M.Burnett          9
+C.Dunlap           9
+C.Campbell         9
+J.Wilson           9
+J.Charles          9
+                  ..
+C.Warmack          1
+B.LaFell           1
+Erin.Henderson     1
+D.Scott            1
+M.Cooper           1
+J.Harper           1
+L.Betts            1
+S.Vollmer          1
+J.Gaither          1
+S.Paea             1
+R.Gunter           1
+K.Huggins          1
+G.Barnidge         1
+K.Bentley          1
+J.Avant            1
+C.Benson           1
+T.Clutts           1
+D.Rosario          1
+T.Gooden           1
+M.Hall             1
+Q.Dunbar           1
+S.Hutchinson       1
+T.Armstead         1
+S.Cody             1
+J.Randle           1
+I.Irving           1
+G.Hardy            1
+B.Dombrowski       1
+J.Phillips         1
+D.Gomes            1
+Length: 1827, dtype: int64 
+
+Sack 频数：
+ 0    396601
+1     11087
+dtype: int64 
+
+Challenge.Replay 频数：
+ 0    404275
+1      3413
+dtype: int64 
+
+ChalReplayResult 频数：
+ Upheld      1986
+Reversed    1416
+dtype: int64 
+
+Accepted.Penalty 频数：
+ 0    378189
+1     29499
+dtype: int64 
+
+PenalizedTeam 频数：
+ OAK    1159
+SEA    1080
+TB     1010
+DET    1007
+PHI     990
+SF      983
+DAL     978
+DEN     977
+BAL     975
+BUF     966
+TEN     932
+CHI     920
+ARI     917
+HOU     916
+CIN     915
+CLE     906
+WAS     904
+NYJ     897
+NO      895
+KC      892
+PIT     863
+MIA     863
+MIN     858
+CAR     852
+GB      851
+JAC     846
+NYG     823
+NE      822
+STL     807
+IND     797
+SD      783
+ATL     777
+LA      231
+LAC     107
+dtype: int64 
+
+PenaltyType 频数：
+ False Start                                                                                                                                                                                                                                                                                                                                                        5284
+Defensive Offside                                                                                                                                                                                                                                                                                                                                                  1524
+Defensive Holding                                                                                                                                                                                                                                                                                                                                                  1490
+Delay of Game                                                                                                                                                                                                                                                                                                                                                      1196
+Neutral Zone Infraction                                                                                                                                                                                                                                                                                                                                             980
+Offensive Holding                                                                                                                                                                                                                                                                                                                                                   722
+Defensive Pass Interference                                                                                                                                                                                                                                                                                                                                         590
+Illegal Contact                                                                                                                                                                                                                                                                                                                                                     556
+Encroachment                                                                                                                                                                                                                                                                                                                                                        526
+Illegal Use of Hands                                                                                                                                                                                                                                                                                                                                                525
+Illegal Formation                                                                                                                                                                                                                                                                                                                                                   473
+Defensive 12 On-field                                                                                                                                                                                                                                                                                                                                               298
+Illegal Block Above the Waist                                                                                                                                                                                                                                                                                                                                       245
+Illegal Shift                                                                                                                                                                                                                                                                                                                                                       210
+Unnecessary Roughness                                                                                                                                                                                                                                                                                                                                               180
+Offside on Free Kick                                                                                                                                                                                                                                                                                                                                                177
+Ineligible Downfield Pass                                                                                                                                                                                                                                                                                                                                           131
+Illegal Motion                                                                                                                                                                                                                                                                                                                                                      114
+Illegal Substitution                                                                                                                                                                                                                                                                                                                                                106
+Roughing the Passer                                                                                                                                                                                                                                                                                                                                                  99
+Face Mask (15 Yards)                                                                                                                                                                                                                                                                                                                                                 93
+Player Out of Bounds on Punt                                                                                                                                                                                                                                                                                                                                         90
+Ineligible Downfield Kick                                                                                                                                                                                                                                                                                                                                            86
+Running Into the Kicker                                                                                                                                                                                                                                                                                                                                              72
+Offensive 12 On-field                                                                                                                                                                                                                                                                                                                                                71
+Illegal Forward Pass                                                                                                                                                                                                                                                                                                                                                 69
+Illegal Touch Kick                                                                                                                                                                                                                                                                                                                                                   65
+Personal Foul                                                                                                                                                                                                                                                                                                                                                        57
+Illegal Touch Pass                                                                                                                                                                                                                                                                                                                                                   56
+Offensive Pass Interference                                                                                                                                                                                                                                                                                                                                          54
+
+Horse Collar                                                                                                                                                                                                                                                                                                                                                          2
+Short Free Kick                                                                                                                                                                                                                                                                                                                                                       2
+Illegal Bat                                                                                                                                                                                                                                                                                                                                                           2
+Kickoff Out of Bounds                                                                                                                                                                                                                                                                                                                                                 2
+Roughing the Kicker                                                                                                                                                                                                                                                                                                                                                   2
+Fair Catch Interference                                                                                                                                                                                                                                                                                                                                               2
+Illegal Kick                                                                                                                                                                                                                                                                                                                                                          1
+Defensive Pass Interference, 12 yards, enforced at KC 26 - No Play. The Replay Official reviewed the spot of a foul ruling, and the play was REVERSED. (Shotgun) A.Smith pass short right intended for D.Robinson INTERCEPTED by J.Jenkins at KC 36. J.Jenkins pushed ob at KC 30 for 6 yards (D.Thomas). PENALTY on NYG-J.Jenkins, Defensive Pass Interference       1
+Unsportsmanlike Conduct, 9 yards, enforced at STL 18. PENALTY on STL-D.Stewart, Unsportsmanlike Conduct                                                                                                                                                                                                                                                               1
+Offensive Pass Interference, 10 yards, enforced at BAL 21 - No Play. PENALTY on BAL-D.Mason, Unsportsmanlike Conduct                                                                                                                                                                                                                                                  1
+Defensive Offside, 5 yards, enforced at JAC 49 - No Play. Green Bay challenged the pass completion ruling, and the play was REVERSED. B.Gabbert pass incomplete deep right to J.Blackmon. PENALTY on GB-R.Pickett, Defensive Offside                                                                                                                                  1
+Roughing the Passer, 6 yards, enforced at TEN 12 - No Play. PENALTY on TEN-B.Orakpo, Unsportsmanlike Conduct, 3 yards, enforced between downs. PENALTY on TEN-B.Orakpo, Unsportsmanlike Conduct                                                                                                                                                                       1
+Personal Foul, 15 yards, enforced at NYJ 32. PENALTY on NYJ-W.Colon, Disqualification, 9 yards, enforced between downs. PENALTY on NYJ-D.Ferguson, Disqualification                                                                                                                                                                                                   1
+Unsportsmanlike Conduct, 6 yards, enforced at STL 11. PENALTY on STL-K.Langford, Disqualification                                                                                                                                                                                                                                                                     1
+Defensive Holding, 1 yard, enforced at KC 2 - No Play. PENALTY on KC-M.Peters, Unsportsmanlike Conduct                                                                                                                                                                                                                                                                1
+Face Mask (15 Yards), 15 yards, enforced between downs. The Replay Assistant challenged the runner broke the plane ruling, and the play was REVERSED. P.Thomas right guard to ATL 1 for 9 yards (W.Moore). PENALTY on ATL-W.Moore, Face Mask (15 Yards)                                                                                                               1
+Illegal Block Above the Waist, 5 yards, enforced at SF 10. Penalty on SF-B.Miller, Illegal Block Above the Waist, declined. PENALTY on SF, Unsportsmanlike Conduct                                                                                                                                                                                                    1
+Unnecessary Roughness, 3 yards, enforced at SF 7 - No Play. PENALTY on SF-D.Whitner, Unsportsmanlike Conduct                                                                                                                                                                                                                                                          1
+Personal Foul, 2 yards, enforced at OAK 4. Oakland challenged the incomplete pass ruling, and the play was REVERSED. B.Gradkowski pass incomplete short right. PENALTY on OAK-C.Carlisle, Personal Foul                                                                                                                                                               1
+Clipping, 15 yards, enforced at GB 27. Green Bay challenged the fumble ruling, and the play was REVERSED. A.Rodgers pass incomplete short right [A.Curry]. PENALTY on OAK-L.Houston, Clipping                                                                                                                                                                         1
+Illegal Peelback                                                                                                                                                                                                                                                                                                                                                      1
+Unnecessary Roughness, 2 yards, enforced at PHI 5. PENALTY on PHI-A.Samuel, Delay of Game                                                                                                                                                                                                                                                                             1
+Offensive Holding, 0 yards, enforced at MIA 30. PENALTY on SD-S.Ajirotutu, Disqualification                                                                                                                                                                                                                                                                           1
+Illegal Crackback                                                                                                                                                                                                                                                                                                                                                     1
+Delay of Kickoff                                                                                                                                                                                                                                                                                                                                                      1
+Illegal Onside Kick                                                                                                                                                                                                                                                                                                                                                   1
+Offensive Holding, 10 yards, enforced at PIT 28 - No Play. PENALTY on PIT-W.Colon, Unsportsmanlike Conduct                                                                                                                                                                                                                                                            1
+Unnecessary Roughness, 15 yards, enforced at PIT 33. The Replay Assistant challenged the fumble ruling, and the play was REVERSED. (Shotgun) E.Manuel pass incomplete short left. PENALTY on PIT-S.McLendon, Unnecessary Roughness                                                                                                                                    1
+Personal Foul, 15 yards, enforced between downs. The Replay Official reviewed the pass completion ruling, and the play was REVERSED. (Shotgun) A.Smith pass incomplete short middle to T.Kelce. PENALTY on SD-M.Te'o, Unnecessary Roughness                                                                                                                           1
+Illegal Procedure                                                                                                                                                                                                                                                                                                                                                     1
+Length: 77, dtype: int64 
+
+PenalizedPlayer 频数：
+ A.Smith        154
+T.Williams      96
+M.Bennett       89
+T.Smith         88
+C.Johnson       85
+V.Davis         79
+J.Smith         72
+J.Thomas        72
+J.Jones         69
+P.Rivers        68
+C.Williams      67
+S.Smith         63
+D.Free          62
+J.Jenkins       62
+B.Browner       61
+T.Brown         59
+N.Suh           59
+M.Jenkins       58
+A.Whitworth     57
+J.Peters        56
+L.Johnson       55
+J.Gresham       55
+R.Okung         54
+B.Skrine        54
+J.Brown         54
+D.Williams      54
+J.Veldheer      54
+J.Hughes        53
+P.Peterson      53
+A.Brown         53
+
+L.Booker         1
+G.Davis          1
+T.Wheatley       1
+D.Driver         1
+B.Jenkins        1
+M.Hall           1
+B.Leonhardt      1
+D.Campbell       1
+R.Odhiambo       1
+J.Amaro          1
+B.Finneran       1
+R.Phillips       1
+M.Spears         1
+Z.Vigil          1
+T.Castille       1
+C.Draft          1
+K.Murphy         1
+G.Atkinson       1
+K.Wooten         1
+J.Galloway       1
+D.Watt           1
+B.Parker         1
+D.McClover       1
+S.Skov           1
+C.Reid           1
+D.Donahue        1
+T.Jacobs         1
+J.Higgins        1
+W.Holden         1
+Jo.Anderson      1
+Length: 3357, dtype: int64 
+
+HomeTeam 频数：
+ NE     13165
+PHI    13123
+DEN    13041
+BUF    12996
+NO     12984
+BAL    12902
+NYG    12901
+ARI    12897
+IND    12897
+OAK    12895
+CLE    12858
+DET    12813
+MIA    12758
+GB     12743
+HOU    12731
+NYJ    12706
+TEN    12689
+CIN    12675
+PIT    12624
+KC     12620
+MIN    12619
+DAL    12597
+SF     12567
+SEA    12559
+WAS    12555
+CAR    12551
+CHI    12516
+TB     12507
+ATL    12431
+SD     11007
+JAC    10035
+STL     9842
+LA      2798
+JAX     2723
+LAC     1363
+dtype: int64 
+
+AwayTeam 频数：
+ PHI    13129
+DEN    13127
+NO     13003
+DET    12975
+NE     12959
+HOU    12939
+BAL    12927
+ARI    12857
+KC     12824
+OAK    12815
+WAS    12809
+IND    12780
+CIN    12763
+ATL    12743
+SF     12735
+BUF    12705
+NYG    12704
+CLE    12700
+MIA    12685
+NYJ    12668
+GB     12666
+TB     12646
+TEN    12603
+CHI    12562
+MIN    12553
+DAL    12553
+SEA    12530
+CAR    12496
+PIT    12278
+SD     11302
+JAC     9808
+STL     9663
+JAX     2930
+LA      2836
+LAC     1415
+dtype: int64 
+
+Timeout_Indicator 频数：
+ 0    390885
+1     16803
+dtype: int64 
+
+Timeout_Team 频数：
+ None    390885
+NO         628
+KC         580
+CLE        573
+SF         572
+OAK        558
+BAL        557
+WAS        555
+HOU        546
+MIA        545
+DEN        544
+TB         541
+DAL        541
+CIN        537
+CAR        534
+GB         530
+DET        527
+PHI        525
+PIT        523
+CHI        519
+ARI        507
+NYJ        505
+BUF        501
+NYG        498
+SD         489
+TEN        486
+ATL        484
+SEA        478
+NE         475
+IND        462
+MIN        446
+JAC        416
+STL        360
+JAX        103
+LA          99
+LAC         59
+dtype: int64 
+
+Season 频数：
+ 2015    46129
+2016    45736
+2014    45502
+2012    45415
+2013    45248
+2017    45241
+2011    45070
+2010    44751
+2009    44596
+dtype: int64 
+=============================数值属性======================
+
+                                     max         min         mean          50%         25%          75%     NaN
+TimeUnder                      15.000000    0.000000     7.374200     7.000000    3.000000    11.000000       0
+TimeSecs                     3600.000000 -900.000000  1695.268944  1800.000000  778.000000  2585.000000     224
+PlayTimeDiff                  943.000000    0.000000    20.576762    17.000000    5.000000    37.000000     444
+yrdln                          50.000000    1.000000    28.488327    30.000000   20.000000    39.000000     840
+yrdline100                     99.000000    1.000000    48.644081    49.000000   30.000000    70.000000     840
+ydsnet                         99.000000  -87.000000    25.945517    19.000000    5.000000    43.000000       0
+Yards.Gained                   99.000000  -74.000000     4.994221     1.000000    0.000000     7.000000       0
+AirYards                       84.000000  -70.000000     3.264006     0.000000    0.000000     4.000000       0
+YardsAfterCatch                90.000000  -81.000000     1.252598     0.000000    0.000000     0.000000       0
+FieldGoalDistance              71.000000   18.000000    37.465132    38.000000   29.000000    46.000000  398740
+Penalty.Yards                  66.000000    0.000000     0.613673     0.000000    0.000000     0.000000       0
+PosTeamScore                   61.000000    0.000000    10.201424     7.000000    2.000000    16.000000   26904
+DefTeamScore                   61.000000    0.000000    11.414484    10.000000    3.000000    17.000000   26904
+ScoreDiff                      59.000000  -59.000000    -1.186590     0.000000   -7.000000     4.000000   24988
+AbsScoreDiff                   59.000000    0.000000     7.783541     7.000000    3.000000    11.000000   26904
+posteam_timeouts_pre            3.000000    0.000000     2.521239     3.000000    2.000000     3.000000       0
+HomeTimeouts_Remaining_Pre      3.000000   -3.000000     2.540479     3.000000    2.000000     3.000000       0
+AwayTimeouts_Remaining_Pre      3.000000   -1.000000     2.517222     3.000000    2.000000     3.000000       0
+HomeTimeouts_Remaining_Post     3.000000   -3.000000     2.520118     3.000000    2.000000     3.000000       0
+AwayTimeouts_Remaining_Post     3.000000   -1.000000     2.496367     3.000000    2.000000     3.000000       0
+No_Score_Prob                   1.000000    0.000000     0.127816     0.024771    0.002791     0.172509     176
+Opp_Field_Goal_Prob             0.360177    0.000000     0.094614     0.083088    0.034599     0.149943     176
+Opp_Safety_Prob                 0.031461    0.000000     0.002495     0.000988    0.000104     0.003845     176
+Opp_Touchdown_Prob              0.496874    0.000000     0.139973     0.124032    0.039834     0.226408     176
+Field_Goal_Prob                 0.994605    0.000000     0.243906     0.231311    0.152443     0.326130     176
+Safety_Prob                     0.015177    0.000000     0.002634     0.002990    0.001883     0.003582     176
+Touchdown_Prob                  0.912963    0.000000     0.295940     0.313676    0.191206     0.407684     176
+ExPoint_Prob                    0.993128    0.000000     0.024072     0.000000    0.000000     0.000000       0
+TwoPoint_Prob                   0.473500    0.000000     0.000703     0.000000    0.000000     0.000000       0
+ExpPts                          6.500900   -3.836488     1.565415     1.257967    0.323526     2.882048     176
+EPA                             9.508015  -13.494136     0.019116     0.000000   -0.599034     0.563047     369
+airEPA                          7.346969  -12.849594     0.524818     0.295977   -0.502895     1.386486  248394
+yacEPA                          9.559834  -14.000000    -0.386086     0.000000   -0.961115     0.485508  248498
+Home_WP_pre                     1.000000    0.000000     0.534488     0.531274    0.325123     0.769232   24954
+Away_WP_pre                     1.000000    0.000000     0.465965     0.469052    0.231411     0.675530   24954
+Home_WP_post                    1.000000    0.000000     0.534791     0.533609    0.321701     0.772882   26587
+Away_WP_post                    1.000000    0.000000     0.465613     0.466670    0.227694     0.678833   26587
+Win_Prob                        1.000000    0.000000     0.501320     0.504470    0.276472     0.725477   25009
+WPA                             0.994848   -0.997214     0.002099     0.000000   -0.014728     0.014684    5541
+airWPA                          0.994848   -0.999881     0.015135     0.003441   -0.011518     0.035792  248501
+yacWPA                          1.000000   -0.986673    -0.010480     0.000000   -0.018683     0.011431  248762
+
